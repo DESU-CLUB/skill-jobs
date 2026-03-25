@@ -1,0 +1,191 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 19,
+            "passed": 19,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1774401051.1641815,
+            "stop": 1774401051.1839886
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_patches_directory_exists",
+                "status": "passed",
+                "duration": 0.00045033401693217456,
+                "start": 1774401051.1733177,
+                "stop": 1774401051.1739664,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_cover_letter_exists",
+                "status": "passed",
+                "duration": 0.0003741259570233524,
+                "start": 1774401051.1740406,
+                "stop": 1774401051.1745596,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patch_0001_exists",
+                "status": "passed",
+                "duration": 0.00030529199284501374,
+                "start": 1774401051.1746137,
+                "stop": 1774401051.175044,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patch_0002_exists",
+                "status": "passed",
+                "duration": 0.0003640010254457593,
+                "start": 1774401051.175106,
+                "stop": 1774401051.1755931,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patch_0003_exists",
+                "status": "passed",
+                "duration": 0.00033670899574644864,
+                "start": 1774401051.175654,
+                "stop": 1774401051.1761048,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patch_0004_exists",
+                "status": "passed",
+                "duration": 0.0002870000316761434,
+                "start": 1774401051.1761577,
+                "stop": 1774401051.1765578,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patch_0001_has_from_header",
+                "status": "passed",
+                "duration": 0.0003411250072531402,
+                "start": 1774401051.1766105,
+                "stop": 1774401051.1770818,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patch_0001_has_date_header",
+                "status": "passed",
+                "duration": 0.0003334170032758266,
+                "start": 1774401051.1771364,
+                "stop": 1774401051.1776226,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patch_0001_subject_is_patch_1_of_4",
+                "status": "passed",
+                "duration": 0.00033116701524704695,
+                "start": 1774401051.1776705,
+                "stop": 1774401051.1781266,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patch_0002_subject_is_patch_2_of_4",
+                "status": "passed",
+                "duration": 0.00033137499121949077,
+                "start": 1774401051.178205,
+                "stop": 1774401051.178661,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patch_0003_subject_is_patch_3_of_4",
+                "status": "passed",
+                "duration": 0.00029583301511593163,
+                "start": 1774401051.1787145,
+                "stop": 1774401051.17912,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patch_0004_subject_is_patch_4_of_4",
+                "status": "passed",
+                "duration": 0.00033662503119558096,
+                "start": 1774401051.1791704,
+                "stop": 1774401051.1796603,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patches_have_separator",
+                "status": "passed",
+                "duration": 0.0002997920091729611,
+                "start": 1774401051.1797113,
+                "stop": 1774401051.1801536,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patch_0001_contains_config_parser",
+                "status": "passed",
+                "duration": 0.0003421660221647471,
+                "start": 1774401051.1802142,
+                "stop": 1774401051.1812096,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_cover_letter_subject",
+                "status": "passed",
+                "duration": 0.0003157090104650706,
+                "start": 1774401051.1812754,
+                "stop": 1774401051.1817112,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_cover_letter_has_from_header",
+                "status": "passed",
+                "duration": 0.00030783397960476577,
+                "start": 1774401051.181763,
+                "stop": 1774401051.1821811,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patch_bundle_log_exists",
+                "status": "passed",
+                "duration": 0.00031145900720730424,
+                "start": 1774401051.182241,
+                "stop": 1774401051.1826773,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patch_bundle_log_has_four_lines",
+                "status": "passed",
+                "duration": 0.00028641801327466965,
+                "start": 1774401051.1827266,
+                "stop": 1774401051.183125,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patch_bundle_log_patch_subjects",
+                "status": "passed",
+                "duration": 0.0003870840009767562,
+                "start": 1774401051.1831741,
+                "stop": 1774401051.1837986,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            }
+        ]
+    }
+}

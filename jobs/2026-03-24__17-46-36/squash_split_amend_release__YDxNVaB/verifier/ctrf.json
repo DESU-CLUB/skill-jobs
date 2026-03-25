@@ -1,0 +1,137 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 13,
+            "passed": 13,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1774400938.7947862,
+            "stop": 1774400941.235592
+        },
+        "tests": [
+            {
+                "name": "test_final_state.py::test_no_mixed_commit_in_history",
+                "status": "passed",
+                "duration": 0.15583024700754322,
+                "start": 1774400938.8032513,
+                "stop": 1774400938.9594238,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_no_wip_bump_version_in_history",
+                "status": "passed",
+                "duration": 0.15515153596061282,
+                "start": 1774400938.9595497,
+                "stop": 1774400939.1149805,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_no_fixup_commit_in_history",
+                "status": "passed",
+                "duration": 0.16276283998740837,
+                "start": 1774400939.1151078,
+                "stop": 1774400939.2781842,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_fix_login_bug_commit_exists",
+                "status": "passed",
+                "duration": 0.1629338400089182,
+                "start": 1774400939.2783554,
+                "stop": 1774400939.4416,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_add_api_endpoint_commit_exists",
+                "status": "passed",
+                "duration": 0.15695057998527773,
+                "start": 1774400939.44173,
+                "stop": 1774400939.5989585,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_bump_version_description_correct",
+                "status": "passed",
+                "duration": 0.1573020409559831,
+                "start": 1774400939.5990887,
+                "stop": 1774400939.756697,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_fix_login_bug_contains_only_auth_py",
+                "status": "passed",
+                "duration": 0.16505534402676858,
+                "start": 1774400939.75682,
+                "stop": 1774400939.9221513,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_add_api_endpoint_contains_only_api_py",
+                "status": "passed",
+                "duration": 0.3235690909787081,
+                "start": 1774400939.9222882,
+                "stop": 1774400940.246135,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_add_release_notes_contains_release_notes_md",
+                "status": "passed",
+                "duration": 0.16781805499340408,
+                "start": 1774400940.2462723,
+                "stop": 1774400940.414458,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_bump_version_commit_contains_version_txt",
+                "status": "passed",
+                "duration": 0.1719829369976651,
+                "start": 1774400940.414594,
+                "stop": 1774400940.5868843,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_fix_login_bug_is_ancestor_of_add_api_endpoint",
+                "status": "passed",
+                "duration": 0.3320072290080134,
+                "start": 1774400940.5870345,
+                "stop": 1774400940.9197493,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_bookmark_release_v23_points_to_bump_version",
+                "status": "passed",
+                "duration": 0.15480115899117664,
+                "start": 1774400940.9198875,
+                "stop": 1774400941.0749712,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_linear_chain_has_five_meaningful_commits",
+                "status": "passed",
+                "duration": 0.1599529980449006,
+                "start": 1774400941.0751033,
+                "stop": 1774400941.2353597,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            }
+        ]
+    }
+}

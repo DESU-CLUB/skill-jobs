@@ -1,0 +1,83 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 7,
+            "passed": 7,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1774399890.9152756,
+            "stop": 1774399891.5441241
+        },
+        "tests": [
+            {
+                "name": "test_final_state.py::test_gitignore_file_exists",
+                "status": "passed",
+                "duration": 0.00032438497873954475,
+                "start": 1774399890.9207385,
+                "stop": 1774399890.9212258,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_gitignore_contains_build_pattern",
+                "status": "passed",
+                "duration": 0.0002688400272745639,
+                "start": 1774399890.9213204,
+                "stop": 1774399890.9216988,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_build_output_bin_still_on_disk",
+                "status": "passed",
+                "duration": 0.0002413820184301585,
+                "start": 1774399890.9217691,
+                "stop": 1774399890.9221132,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_build_output_bin_not_tracked",
+                "status": "passed",
+                "duration": 0.1550642539805267,
+                "start": 1774399890.9221814,
+                "stop": 1774399891.0775208,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_src_main_py_still_tracked",
+                "status": "passed",
+                "duration": 0.1529458989680279,
+                "start": 1774399891.0776346,
+                "stop": 1774399891.2308698,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_gitignore_tracked",
+                "status": "passed",
+                "duration": 0.1530285240150988,
+                "start": 1774399891.230992,
+                "stop": 1774399891.3843062,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_jj_status_does_not_show_build_artifact",
+                "status": "passed",
+                "duration": 0.15927378300693817,
+                "start": 1774399891.384428,
+                "stop": 1774399891.543954,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            }
+        ]
+    }
+}

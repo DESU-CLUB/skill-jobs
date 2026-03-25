@@ -1,0 +1,47 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 3,
+            "passed": 3,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1774401694.4686878,
+            "stop": 1774401695.0012822
+        },
+        "tests": [
+            {
+                "name": "test_final_state.py::test_watchdog_commit_is_visible_in_default_log",
+                "status": "passed",
+                "duration": 0.17912615500972606,
+                "start": 1774401694.4754968,
+                "stop": 1774401694.6549664,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_watchdog_commit_not_marked_hidden_in_log",
+                "status": "passed",
+                "duration": 0.17616595103754662,
+                "start": 1774401694.6550992,
+                "stop": 1774401694.8315868,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_watchdog_file_content_accessible",
+                "status": "passed",
+                "duration": 0.16903287800960243,
+                "start": 1774401694.831733,
+                "stop": 1774401695.0010552,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            }
+        ]
+    }
+}

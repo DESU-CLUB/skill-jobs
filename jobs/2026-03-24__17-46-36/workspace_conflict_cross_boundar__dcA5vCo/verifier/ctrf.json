@@ -1,0 +1,92 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 8,
+            "passed": 8,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1774402619.7326152,
+            "stop": 1774402620.7446237
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_feature_b_has_feature_a_as_ancestor",
+                "status": "passed",
+                "duration": 0.16455785199650563,
+                "start": 1774402619.739386,
+                "stop": 1774402619.9042468,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_api_py_at_feature_b_has_no_conflicts",
+                "status": "passed",
+                "duration": 0.1757328609819524,
+                "start": 1774402619.9043627,
+                "stop": 1774402620.0803506,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_api_py_has_users_endpoint",
+                "status": "passed",
+                "duration": 0.1661080600169953,
+                "start": 1774402620.0804734,
+                "stop": 1774402620.2468407,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_api_py_has_products_endpoint",
+                "status": "passed",
+                "duration": 0.16598680999595672,
+                "start": 1774402620.2469509,
+                "stop": 1774402620.4131832,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_main_has_both_features_as_ancestors",
+                "status": "passed",
+                "duration": 0.16468485197401606,
+                "start": 1774402620.413303,
+                "stop": 1774402620.5782523,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_main_is_merge_commit",
+                "status": "passed",
+                "duration": 0.1651490589720197,
+                "start": 1774402620.5783598,
+                "stop": 1774402620.7437363,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_log_file_exists",
+                "status": "passed",
+                "duration": 0.00021604201174341142,
+                "start": 1774402620.7438412,
+                "stop": 1774402620.7441597,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_log_file_content",
+                "status": "passed",
+                "duration": 0.00020383397350087762,
+                "start": 1774402620.7442133,
+                "stop": 1774402620.7444966,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            }
+        ]
+    }
+}

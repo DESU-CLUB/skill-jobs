@@ -1,0 +1,110 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 10,
+            "passed": 10,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1774401996.6897666,
+            "stop": 1774401997.7033885
+        },
+        "tests": [
+            {
+                "name": "test_final_state.py::test_refactor_py_exists",
+                "status": "passed",
+                "duration": 0.00032362702768296003,
+                "start": 1774401996.6963403,
+                "stop": 1774401996.6968088,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_refactor_py_content",
+                "status": "passed",
+                "duration": 0.00025716799427755177,
+                "start": 1774401996.696887,
+                "stop": 1774401996.697248,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_base_py_exists",
+                "status": "passed",
+                "duration": 0.00027241799398325384,
+                "start": 1774401996.697317,
+                "stop": 1774401996.6976984,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_base_py_content",
+                "status": "passed",
+                "duration": 0.00021595999714918435,
+                "start": 1774401996.6977642,
+                "stop": 1774401996.6980786,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_add_base_module_commit_visible",
+                "status": "passed",
+                "duration": 0.16883637598948553,
+                "start": 1774401996.6981447,
+                "stop": 1774401996.8672595,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_refactor_squash_target_commit_visible",
+                "status": "passed",
+                "duration": 0.16513760402449407,
+                "start": 1774401996.8673844,
+                "stop": 1774401997.0328033,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_both_commits_are_separate",
+                "status": "passed",
+                "duration": 0.16600302499136887,
+                "start": 1774401997.0329325,
+                "stop": 1774401997.1992033,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_op_log_has_restore_operation",
+                "status": "passed",
+                "duration": 0.17082351102726534,
+                "start": 1774401997.1993484,
+                "stop": 1774401997.3704736,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_op_log_most_recent_is_restore",
+                "status": "passed",
+                "duration": 0.165918854996562,
+                "start": 1774401997.370595,
+                "stop": 1774401997.5367825,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_jj_status_succeeds",
+                "status": "passed",
+                "duration": 0.16595656500430778,
+                "start": 1774401997.5369124,
+                "stop": 1774401997.7031603,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            }
+        ]
+    }
+}

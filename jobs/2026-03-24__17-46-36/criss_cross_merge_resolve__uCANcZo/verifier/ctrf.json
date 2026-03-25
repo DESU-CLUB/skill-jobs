@@ -1,0 +1,167 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 13,
+            "passed": 3,
+            "failed": 10,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1774400554.5673552,
+            "stop": 1774400556.318337
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_log_file_exists",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.0004197949601802975,
+                "start": 1774400554.5794768,
+                "stop": 1774400554.5859373,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_log_file_exists():\n>       assert os.path.isfile(LOG_FILE), f\"Log file {LOG_FILE} does not exist\"\nE       AssertionError: Log file /home/user/criss_cross_log.txt does not exist\nE       assert False\nE        +  where False = <function isfile at 0xe9c87cd90220>('/home/user/criss_cross_log.txt')\nE        +    where <function isfile at 0xe9c87cd90220> = <module 'posixpath' (frozen)>.isfile\nE        +      where <module 'posixpath' (frozen)> = os.path\n\n/tests/test_outputs.py:24: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "test_outputs.py::test_log_file_format",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.0003282109973952174,
+                "start": 1774400554.5860517,
+                "stop": 1774400554.5875168,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_log_file_format():\n>       assert os.path.isfile(LOG_FILE), \"Log file missing\"\nE       AssertionError: Log file missing\nE       assert False\nE        +  where False = <function isfile at 0xe9c87cd90220>('/home/user/criss_cross_log.txt')\nE        +    where <function isfile at 0xe9c87cd90220> = <module 'posixpath' (frozen)>.isfile\nE        +      where <module 'posixpath' (frozen)> = os.path\n\n/tests/test_outputs.py:28: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "test_outputs.py::test_log_file_change_ids_nonempty",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.0002745030215010047,
+                "start": 1774400554.5875933,
+                "stop": 1774400554.58895,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_log_file_change_ids_nonempty():\n>       assert os.path.isfile(LOG_FILE), \"Log file missing\"\nE       AssertionError: Log file missing\nE       assert False\nE        +  where False = <function isfile at 0xe9c87cd90220>('/home/user/criss_cross_log.txt')\nE        +    where <function isfile at 0xe9c87cd90220> = <module 'posixpath' (frozen)>.isfile\nE        +      where <module 'posixpath' (frozen)> = os.path\n\n/tests/test_outputs.py:38: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "test_outputs.py::test_integration_bookmark_exists",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.2020762129977811,
+                "start": 1774400554.58901,
+                "stop": 1774400554.7924483,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_integration_bookmark_exists():\n        result = run_jj([\"bookmark\", \"list\"])\n>       assert \"integration\" in result.stdout, \"integration bookmark not found\"\nE       AssertionError: integration bookmark not found\nE       assert 'integration' in 'branch-a: mqkouuwz 6a3d9da5 (empty) merge: branch-b into branch-a (criss)\\nbranch-b: uttrtnru 6b077df0 (empty) merge: branch-a into branch-b (cross)\\nmain-v1: xwmrxrqk 49145d02 (empty) chore: main-v1 base\\n'\nE        +  where 'branch-a: mqkouuwz 6a3d9da5 (empty) merge: branch-b into branch-a (criss)\\nbranch-b: uttrtnru 6b077df0 (empty) merge: branch-a into branch-b (cross)\\nmain-v1: xwmrxrqk 49145d02 (empty) chore: main-v1 base\\n' = CompletedProcess(args=['jj', 'bookmark', 'list'], returncode=0, stdout='branch-a: mqkouuwz 6a3d9da5 (empty) merge: bra...f0 (empty) merge: branch-a into branch-b (cross)\\nmain-v1: xwmrxrqk 49145d02 (empty) chore: main-v1 base\\n', stderr='').stdout\n\n/tests/test_outputs.py:48: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "test_outputs.py::test_integration_has_no_conflicts",
+                "status": "passed",
+                "duration": 0.1965546380088199,
+                "start": 1774400554.7925296,
+                "stop": 1774400554.9906313,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_core_py_has_initialize",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.1861596139788162,
+                "start": 1774400554.9909348,
+                "stop": 1774400555.1785266,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_core_py_has_initialize():\n        r = subprocess.run(\n            [\"jj\", \"file\", \"show\", \"-r\", \"integration\", \"src/core.py\"],\n            cwd=REPO_DIR, capture_output=True, text=True\n        )\n>       assert \"def initialize(\" in r.stdout, \"initialize() function missing from src/core.py\"\nE       AssertionError: initialize() function missing from src/core.py\nE       assert 'def initialize(' in ''\nE        +  where '' = CompletedProcess(args=['jj', 'file', 'show', '-r', 'integration', 'src/core.py'], returncode=1, stdout='', stderr=\"Error: Revision `integration` doesn't exist\\n\").stdout\n\n/tests/test_outputs.py:63: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "test_outputs.py::test_core_py_has_shutdown",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.16510440601268783,
+                "start": 1774400555.1786067,
+                "stop": 1774400555.3450027,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_core_py_has_shutdown():\n        r = subprocess.run(\n            [\"jj\", \"file\", \"show\", \"-r\", \"integration\", \"src/core.py\"],\n            cwd=REPO_DIR, capture_output=True, text=True\n        )\n>       assert \"def shutdown(\" in r.stdout, \"shutdown() function missing from src/core.py\"\nE       AssertionError: shutdown() function missing from src/core.py\nE       assert 'def shutdown(' in ''\nE        +  where '' = CompletedProcess(args=['jj', 'file', 'show', '-r', 'integration', 'src/core.py'], returncode=1, stdout='', stderr=\"Error: Revision `integration` doesn't exist\\n\").stdout\n\n/tests/test_outputs.py:71: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "test_outputs.py::test_utils_py_has_format_output",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.1614999680314213,
+                "start": 1774400555.3450813,
+                "stop": 1774400555.5079503,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_utils_py_has_format_output():\n        r = subprocess.run(\n            [\"jj\", \"file\", \"show\", \"-r\", \"integration\", \"src/utils.py\"],\n            cwd=REPO_DIR, capture_output=True, text=True\n        )\n>       assert \"def format_output(\" in r.stdout, \"format_output() function missing from src/utils.py\"\nE       AssertionError: format_output() function missing from src/utils.py\nE       assert 'def format_output(' in ''\nE        +  where '' = CompletedProcess(args=['jj', 'file', 'show', '-r', 'integration', 'src/utils.py'], returncode=1, stdout='', stderr=\"Error: Revision `integration` doesn't exist\\n\").stdout\n\n/tests/test_outputs.py:79: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "test_outputs.py::test_utils_py_has_parse_input",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.158881867013406,
+                "start": 1774400555.508031,
+                "stop": 1774400555.6682405,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_utils_py_has_parse_input():\n        r = subprocess.run(\n            [\"jj\", \"file\", \"show\", \"-r\", \"integration\", \"src/utils.py\"],\n            cwd=REPO_DIR, capture_output=True, text=True\n        )\n>       assert \"def parse_input(\" in r.stdout, \"parse_input() function missing from src/utils.py\"\nE       AssertionError: parse_input() function missing from src/utils.py\nE       assert 'def parse_input(' in ''\nE        +  where '' = CompletedProcess(args=['jj', 'file', 'show', '-r', 'integration', 'src/utils.py'], returncode=1, stdout='', stderr=\"Error: Revision `integration` doesn't exist\\n\").stdout\n\n/tests/test_outputs.py:87: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "test_outputs.py::test_feature_a_exists_in_integration",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.16007549897767603,
+                "start": 1774400555.6683233,
+                "stop": 1774400555.8297944,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_feature_a_exists_in_integration():\n        r = subprocess.run(\n            [\"jj\", \"file\", \"show\", \"-r\", \"integration\", \"src/feature_a.py\"],\n            cwd=REPO_DIR, capture_output=True, text=True\n        )\n>       assert r.returncode == 0 and len(r.stdout.strip()) > 0, \\\n            \"src/feature_a.py missing from integration commit\"\nE       AssertionError: src/feature_a.py missing from integration commit\nE       assert (1 == 0)\nE        +  where 1 = CompletedProcess(args=['jj', 'file', 'show', '-r', 'integration', 'src/feature_a.py'], returncode=1, stdout='', stderr=\"Error: Revision `integration` doesn't exist\\n\").returncode\n\n/tests/test_outputs.py:95: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "test_outputs.py::test_feature_b_exists_in_integration",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.16499127799761482,
+                "start": 1774400555.8298776,
+                "stop": 1774400555.9962735,
+                "retries": 0,
+                "file_path": "test_outputs.py",
+                "trace": "def test_feature_b_exists_in_integration():\n        r = subprocess.run(\n            [\"jj\", \"file\", \"show\", \"-r\", \"integration\", \"src/feature_b.py\"],\n            cwd=REPO_DIR, capture_output=True, text=True\n        )\n>       assert r.returncode == 0 and len(r.stdout.strip()) > 0, \\\n            \"src/feature_b.py missing from integration commit\"\nE       AssertionError: src/feature_b.py missing from integration commit\nE       assert (1 == 0)\nE        +  where 1 = CompletedProcess(args=['jj', 'file', 'show', '-r', 'integration', 'src/feature_b.py'], returncode=1, stdout='', stderr=\"Error: Revision `integration` doesn't exist\\n\").returncode\n\n/tests/test_outputs.py:104: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "test_outputs.py::test_no_conflict_markers_in_core_py",
+                "status": "passed",
+                "duration": 0.15937499402207322,
+                "start": 1774400555.996355,
+                "stop": 1774400556.1559694,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_no_conflict_markers_in_utils_py",
+                "status": "passed",
+                "duration": 0.16187263195752166,
+                "start": 1774400556.1560712,
+                "stop": 1774400556.3181632,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            }
+        ]
+    }
+}

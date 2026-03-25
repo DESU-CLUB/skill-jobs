@@ -1,0 +1,32 @@
+
+Pochi 0.6.2 (update available 0.6.3)
+────────────────────────────────────────────────────────────────────────────────
+- Initializing MCP connections...
+You
+The repository at `/home/user/repo` contains 12 commits interleaved between a human author and `bot@company.com`. Consecutive bot commits should be squashed into single commits with descriptions in the format `chore: [bot] squashed N automated commits`. Human commits must remain untouched. After rewriting, update the `main` bookmark and write a squash log to `/home/user/squash_log.txt` showing which original commits were merged into each squashed commit.   
+
+Pochi
+💭 Thinking for 834 characters   
+💫 Executing jj log --no-graph -r '::' -T 'commit_id ++ "|" ++ author.email() ++ "|" ++ description' ✔ 
+💭 Thinking for 650 characters   
+💫 Executing jj help squash ✔ 
+💭 Thinking for 808 characters   
+💫 Executing jj squash -f 2794b652fb7b62bef2d2b0d22f6ae5f71575bcd6 -f 947f7f23defb1048825934c9ecc18b68bb8a6e19 -t a23ca62f0100cbb1b5295d0c2d6c08ec62240c05 -m "chore: [bot] squashed 3 automated commits" ✔ 
+💭 Thinking for 264 characters   
+💫 Executing jj log --no-graph -r '::' -T 'commit_id ++ "|" ++ author.email() ++ "|" ++ description' ✔ 
+💭 Thinking for 644 characters   
+💫 Executing jj squash -f 5b693231a95c8394588bdf3e746b2292da725022 -t 805f8d35f4e2b97265d529a74d874fac30aca3ff -m "chore: [bot] squashed 2 automated commits" ✔ 
+💭 Thinking for 236 characters   
+💫 Executing jj log --no-graph -r '::' -T 'commit_id ++ "|" ++ author.email() ++ "|" ++ description' ✔ 
+💭 Thinking for 715 characters   
+💫 Executing jj squash -f 55496e43495773f7a502c5b357273c3b5a68f210 -f 415fbb3eddb307532b603d4e7a3b62fec12a92d3 -t 237363be5dddf82b09b404cd8d55ed5ddcceb04a -m "chore: [bot] squashed 3 automated commits" ✔ 
+💭 Thinking for 193 characters   
+💫 Executing jj log --no-graph -r '::' -T 'commit_id ++ "|" ++ author.email() ++ "|" ++ description' ✔ 
+💭 Thinking for 896 characters   
+✏️  Writing /home/user/squash_log.txt ✔ 
+💭 Thinking for 251 characters   
+💫 Executing jj bookmark list ✔ 
+💭 Thinking for 227 characters   
+🎉 Task Completed
+I have successfully squashed the consecutive bot commits into single commits while preserving the human commits. I've also updated the `main` bookmark to point to the new head and created the squash log at `/home/user/squash_log.txt` detailing which original commits were merged into each squashed commit.   
+  

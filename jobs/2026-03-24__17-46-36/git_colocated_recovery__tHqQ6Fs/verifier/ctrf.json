@@ -1,0 +1,83 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 7,
+            "passed": 7,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1774401070.607591,
+            "stop": 1774401071.4702537
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_git_head_not_detached",
+                "status": "passed",
+                "duration": 0.0026397499605081975,
+                "start": 1774401070.6141078,
+                "stop": 1774401070.6169815,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_config_py_committed",
+                "status": "passed",
+                "duration": 0.335835687990766,
+                "start": 1774401070.6170905,
+                "stop": 1774401070.9531996,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_readme_modification_preserved",
+                "status": "passed",
+                "duration": 0.16948632404091768,
+                "start": 1774401070.9533246,
+                "stop": 1774401071.1230528,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_jj_and_git_in_sync",
+                "status": "passed",
+                "duration": 0.17457616003230214,
+                "start": 1774401071.1231723,
+                "stop": 1774401071.297982,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_core_py_still_present",
+                "status": "passed",
+                "duration": 0.17088332402636297,
+                "start": 1774401071.2980902,
+                "stop": 1774401071.4692283,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_sync_report_exists",
+                "status": "passed",
+                "duration": 0.00025233402266167104,
+                "start": 1774401071.469356,
+                "stop": 1774401071.4697225,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_sync_report_content",
+                "status": "passed",
+                "duration": 0.00022399998852051795,
+                "start": 1774401071.469789,
+                "stop": 1774401071.4701056,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            }
+        ]
+    }
+}

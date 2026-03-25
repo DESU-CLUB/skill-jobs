@@ -1,0 +1,110 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 10,
+            "passed": 10,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1774402245.6781144,
+            "stop": 1774402245.855951
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_divergence_report_exists",
+                "status": "passed",
+                "duration": 0.0003213769814465195,
+                "start": 1774402245.6850743,
+                "stop": 1774402245.685577,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_analysis_log_exists",
+                "status": "passed",
+                "duration": 0.00022883398924022913,
+                "start": 1774402245.6856549,
+                "stop": 1774402245.6859872,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_analysis_log_content",
+                "status": "passed",
+                "duration": 0.00022250000620260835,
+                "start": 1774402245.686046,
+                "stop": 1774402245.6863687,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_report_has_section_headings",
+                "status": "passed",
+                "duration": 0.00021191703854128718,
+                "start": 1774402245.6864245,
+                "stop": 1774402245.6867294,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_report_has_commit_description",
+                "status": "passed",
+                "duration": 0.0002086679742205888,
+                "start": 1774402245.6867828,
+                "stop": 1774402245.68708,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_report_has_change_id",
+                "status": "passed",
+                "duration": 0.00021012601791881025,
+                "start": 1774402245.687132,
+                "stop": 1774402245.6874287,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_report_has_divergence_op_id",
+                "status": "passed",
+                "duration": 0.00025525098317302763,
+                "start": 1774402245.6874824,
+                "stop": 1774402245.6878395,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_report_has_first_develop_commit",
+                "status": "passed",
+                "duration": 0.00022666799486614764,
+                "start": 1774402245.6878915,
+                "stop": 1774402245.6882255,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_report_has_first_main_commit",
+                "status": "passed",
+                "duration": 0.00020379197667352855,
+                "start": 1774402245.6882942,
+                "stop": 1774402245.6885798,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_common_ancestor_is_correct",
+                "status": "passed",
+                "duration": 0.16690377701888792,
+                "start": 1774402245.6886277,
+                "stop": 1774402245.8557813,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            }
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+
+Pochi 0.6.2 (update available 0.6.3)
+────────────────────────────────────────────────────────────────────────────────
+- Initializing MCP connections...
+You
+The repository at `/home/user/repo` has a merge commit `merge-ab` that merges two branches (`branch-a` and `branch-b`) which both modified `src/config.py` from a common base. The merge has conflicts. Resolve all conflicts in `src/config.py` keeping the database settings (host, port, name, max connections) from `branch-a` and the logging/timeout settings (LOG\_LEVEL, TIMEOUT) from `branch-b`. Mark the resolution complete so no conflicts remain. Write a conflict resolution summary to `/home/user/resolution_summary.md`.   
+
+Pochi
+💭 Thinking for 826 characters   
+📖 Reading src/config.py ✔ 
+💭 Thinking for 1392 characters   
+✏️  Writing src/config.py ✔ 
+✏️  Writing /home/user/resolution_summary.md ✔ 
+💭 Thinking for 277 characters   
+💫 Executing jj resolve -l ✔ 
+💭 Thinking for 288 characters   
+💫 Executing jj status ✔ 
+💭 Thinking for 834 characters   
+💫 Executing jj resolve --help ✔ 
+💭 Thinking for 649 characters   
+💫 Executing jj diff ✔ 
+💭 Thinking for 259 characters   
+📖 Reading src/config.py ✔ 
+💭 Thinking for 744 characters   
+💫 Executing jj diff --color never ✔ 
+💭 Thinking for 320 characters   
+📖 Reading /home/user/resolution_summary.md ✔ 
+💭 Thinking for 733 characters   
+🎉 Task Completed
+I have resolved the merge conflicts in `src/config.py` according to your requirements:
+
+1. **Database settings** (`DATABASE_HOST`, `DATABASE_PORT`, `DATABASE_NAME`, `MAX_CONNECTIONS`) were kept from `branch-a`.
+2. **Logging and Timeout settings** (`LOG_LEVEL`, `TIMEOUT`) were kept from `branch-b`.
+
+The conflict markers have been removed, marking the resolution as complete in Jujutsu (`jj`).
+
+I've also written the conflict resolution summary to `/home/user/resolution_summary.md` as requested.   
+  

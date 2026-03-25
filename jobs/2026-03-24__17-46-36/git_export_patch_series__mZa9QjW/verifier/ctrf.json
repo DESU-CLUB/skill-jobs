@@ -1,0 +1,137 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 13,
+            "passed": 13,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1774402053.8174129,
+            "stop": 1774402053.8320339
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_patches_directory_exists",
+                "status": "passed",
+                "duration": 0.00033216801239177585,
+                "start": 1774402053.8272378,
+                "stop": 1774402053.827722,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patches_directory_has_six_files",
+                "status": "passed",
+                "duration": 0.0002345009706914425,
+                "start": 1774402053.8277984,
+                "stop": 1774402053.8281286,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_cover_letter_exists",
+                "status": "passed",
+                "duration": 0.00021475099492818117,
+                "start": 1774402053.8281841,
+                "stop": 1774402053.8284862,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_cover_letter_subject",
+                "status": "passed",
+                "duration": 0.00020937496447004378,
+                "start": 1774402053.8285367,
+                "stop": 1774402053.8288283,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patch_0001_exists_and_valid",
+                "status": "passed",
+                "duration": 0.0002103760198224336,
+                "start": 1774402053.8288784,
+                "stop": 1774402053.82917,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patch_0002_exists_and_valid",
+                "status": "passed",
+                "duration": 0.00021441804710775614,
+                "start": 1774402053.8292181,
+                "stop": 1774402053.829515,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patch_0003_exists_and_valid",
+                "status": "passed",
+                "duration": 0.00018821001867763698,
+                "start": 1774402053.829563,
+                "stop": 1774402053.8298311,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patch_0004_exists_and_valid",
+                "status": "passed",
+                "duration": 0.00018746001296676695,
+                "start": 1774402053.8298767,
+                "stop": 1774402053.8301442,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_patch_0005_exists_and_valid",
+                "status": "passed",
+                "duration": 0.00019500000053085387,
+                "start": 1774402053.8301904,
+                "stop": 1774402053.8304636,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_all_patches_have_from_header",
+                "status": "passed",
+                "duration": 0.00022312600049190223,
+                "start": 1774402053.8305109,
+                "stop": 1774402053.830815,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_log_file_exists",
+                "status": "passed",
+                "duration": 0.00022104202071204782,
+                "start": 1774402053.8308673,
+                "stop": 1774402053.831194,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_log_file_has_five_lines",
+                "status": "passed",
+                "duration": 0.00021183400531299412,
+                "start": 1774402053.8312619,
+                "stop": 1774402053.8315582,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_log_file_content",
+                "status": "passed",
+                "duration": 0.00023850196157582104,
+                "start": 1774402053.8316064,
+                "stop": 1774402053.8319244,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            }
+        ]
+    }
+}

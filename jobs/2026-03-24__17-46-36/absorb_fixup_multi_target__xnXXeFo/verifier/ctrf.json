@@ -1,0 +1,83 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 7,
+            "passed": 7,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1774401024.3899226,
+            "stop": 1774401025.4126995
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_commit_1_has_strip_parser",
+                "status": "passed",
+                "duration": 0.16508703495492227,
+                "start": 1774401024.3953733,
+                "stop": 1774401024.5607755,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_commit_3_has_improved_formatter",
+                "status": "passed",
+                "duration": 0.1643956999760121,
+                "start": 1774401024.5608912,
+                "stop": 1774401024.725569,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_commit_5_has_none_check_runner",
+                "status": "passed",
+                "duration": 0.17334795999340713,
+                "start": 1774401024.7256844,
+                "stop": 1774401024.8992991,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_working_copy_is_clean",
+                "status": "passed",
+                "duration": 0.17220275101135485,
+                "start": 1774401024.8994212,
+                "stop": 1774401025.0718825,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_commit_2_unchanged",
+                "status": "passed",
+                "duration": 0.17085483099799603,
+                "start": 1774401025.0720134,
+                "stop": 1774401025.2431502,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_commit_4_unchanged",
+                "status": "passed",
+                "duration": 0.16846466399147175,
+                "start": 1774401025.2432768,
+                "stop": 1774401025.4119718,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_absorb_report_exists",
+                "status": "passed",
+                "duration": 0.0003305839782115072,
+                "start": 1774401025.4120882,
+                "stop": 1774401025.412554,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            }
+        ]
+    }
+}

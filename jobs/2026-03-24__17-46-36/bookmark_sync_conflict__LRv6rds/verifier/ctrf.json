@@ -1,0 +1,56 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 4,
+            "passed": 4,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1774402202.5867648,
+            "stop": 1774402203.7011733
+        },
+        "tests": [
+            {
+                "name": "test_final_state.py::test_feature_login_bookmark_exists_and_not_conflicted",
+                "status": "passed",
+                "duration": 0.208537323953351,
+                "start": 1774402202.591723,
+                "stop": 1774402202.8006475,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_feature_login_points_to_my_local_commit",
+                "status": "passed",
+                "duration": 0.17838129799929447,
+                "start": 1774402202.8007877,
+                "stop": 1774402202.9794543,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_feature_login_parent_is_coworker_commit",
+                "status": "passed",
+                "duration": 0.18291327299084514,
+                "start": 1774402202.9795804,
+                "stop": 1774402203.162809,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            },
+            {
+                "name": "test_final_state.py::test_feature_login_pushed_to_origin",
+                "status": "passed",
+                "duration": 0.5378304870100692,
+                "start": 1774402203.1629238,
+                "stop": 1774402203.7010083,
+                "retries": 0,
+                "file_path": "test_final_state.py"
+            }
+        ]
+    }
+}

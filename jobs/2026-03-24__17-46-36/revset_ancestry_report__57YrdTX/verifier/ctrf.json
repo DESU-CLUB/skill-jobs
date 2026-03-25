@@ -1,0 +1,92 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 8,
+            "passed": 8,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1774402443.0170023,
+            "stop": 1774402443.2022007
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_report_exists",
+                "status": "passed",
+                "duration": 0.00038154199137352407,
+                "start": 1774402443.0231931,
+                "stop": 1774402443.0237606,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_report_has_feature_a_exclusive_section",
+                "status": "passed",
+                "duration": 0.0003573769936338067,
+                "start": 1774402443.0238395,
+                "stop": 1774402443.024329,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_report_has_all_features_intersection",
+                "status": "passed",
+                "duration": 0.0003065420314669609,
+                "start": 1774402443.0243943,
+                "stop": 1774402443.02483,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_report_has_merge_base_section",
+                "status": "passed",
+                "duration": 0.0003268750151619315,
+                "start": 1774402443.0248902,
+                "stop": 1774402443.0253344,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_report_has_core_py_section",
+                "status": "passed",
+                "duration": 0.0003026659833267331,
+                "start": 1774402443.0253916,
+                "stop": 1774402443.0258162,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_report_is_non_trivial",
+                "status": "passed",
+                "duration": 0.00029341597110033035,
+                "start": 1774402443.0258744,
+                "stop": 1774402443.0262837,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_feature_a_exclusive_commits_identified",
+                "status": "passed",
+                "duration": 0.00028249999741092324,
+                "start": 1774402443.026336,
+                "stop": 1774402443.0267296,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_core_py_commits_in_report",
+                "status": "passed",
+                "duration": 0.17498963797697797,
+                "start": 1774402443.0267808,
+                "stop": 1774402443.202006,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            }
+        ]
+    }
+}

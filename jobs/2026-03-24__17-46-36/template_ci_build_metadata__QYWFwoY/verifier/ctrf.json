@@ -1,0 +1,128 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 12,
+            "passed": 12,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1774401528.936364,
+            "stop": 1774401529.15234
+        },
+        "tests": [
+            {
+                "name": "test_outputs.py::test_ci_metadata_json_exists",
+                "status": "passed",
+                "duration": 0.00040808398625813425,
+                "start": 1774401528.9446757,
+                "stop": 1774401528.9452527,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_ci_metadata_is_valid_json",
+                "status": "passed",
+                "duration": 0.0029128710157237947,
+                "start": 1774401528.945342,
+                "stop": 1774401528.9485364,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_ci_metadata_has_commit_id",
+                "status": "passed",
+                "duration": 0.0009682909876573831,
+                "start": 1774401528.948644,
+                "stop": 1774401528.9504056,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_ci_metadata_has_change_id",
+                "status": "passed",
+                "duration": 0.0004027499817311764,
+                "start": 1774401528.950494,
+                "stop": 1774401528.951218,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_ci_metadata_has_author",
+                "status": "passed",
+                "duration": 0.0008539989939890802,
+                "start": 1774401528.9512951,
+                "stop": 1774401528.9522629,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_ci_metadata_has_email",
+                "status": "passed",
+                "duration": 0.00025162502424791455,
+                "start": 1774401528.9523282,
+                "stop": 1774401528.9526825,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_ci_metadata_has_timestamp",
+                "status": "passed",
+                "duration": 0.0007947919948492199,
+                "start": 1774401528.9527388,
+                "stop": 1774401528.9536595,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_ci_metadata_has_description",
+                "status": "passed",
+                "duration": 0.0002677089942153543,
+                "start": 1774401528.9537191,
+                "stop": 1774401528.9540873,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_ci_metadata_has_parents",
+                "status": "passed",
+                "duration": 0.0013261660060379654,
+                "start": 1774401528.954142,
+                "stop": 1774401528.9555686,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_ci_diff_stats_exists",
+                "status": "passed",
+                "duration": 0.00023629097267985344,
+                "start": 1774401528.9556248,
+                "stop": 1774401528.9559565,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_ci_diff_stats_not_empty",
+                "status": "passed",
+                "duration": 0.00025033295969478786,
+                "start": 1774401528.956006,
+                "stop": 1774401528.9563618,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            },
+            {
+                "name": "test_outputs.py::test_ci_metadata_exported_bookmark_exists",
+                "status": "passed",
+                "duration": 0.19546523902681656,
+                "start": 1774401528.9564145,
+                "stop": 1774401529.1521113,
+                "retries": 0,
+                "file_path": "test_outputs.py"
+            }
+        ]
+    }
+}
