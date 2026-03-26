@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "onevcat-jj": {
+      "source": "onevcat/skills",
+      "sourceType": "github",
+      "computedHash": "c3321acb37a5a1d6faa257f5d155a238d5ed478d2c93841a4918004763ba0719"
+    }
+  }
+}
